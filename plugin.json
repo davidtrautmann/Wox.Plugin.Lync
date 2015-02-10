@@ -1,0 +1,12 @@
+{
+  "ID":"F15B6FD09C2F456194CD8BD08F1F7C86",
+  "ActionKeyword":"lync",
+  "Name":"Lync Integration",
+  "Description":"Microsoft Lync Integration",
+  "Author":"davidtrautmann",
+  "Version":"0.0.1",
+  "Language":"csharp",
+  "Website":"https://github.com/davidtrautmann/...",
+  "IcoPath": "Images\\app.png",
+  "ExecuteFileName":"Wox.Plugin.Lync.dll"
+}
