@@ -1,4 +1,4 @@
-# Wox Plugin Lync
+# Wox Plugin Lync [![Build Status](https://travis-ci.org/davidtrautmann/Wox.Plugin.Lync.svg)](https://travis-ci.org/davidtrautmann/Wox.Plugin.Lync)
 An [Wox](https://github.com/qianlifeng/Wox) plugin for Microsoft Lync.
 
 ### Usage
