@@ -10,7 +10,11 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F82818C4-1FC5-4015-AF94-4519FFFBAF3F}"
 	ProjectSection(SolutionItems) = preProject
 		.travis.yml = .travis.yml
-		.nuget\packages.config = .nuget\packages.config
+		lib\Microsoft.Lync.Controls.dll = lib\Microsoft.Lync.Controls.dll
+		lib\Microsoft.Lync.Controls.Framework.dll = lib\Microsoft.Lync.Controls.Framework.dll
+		lib\Microsoft.Lync.Model.dll = lib\Microsoft.Lync.Model.dll
+		lib\Microsoft.Lync.Utilities.dll = lib\Microsoft.Lync.Utilities.dll
+		lib\Microsoft.Office.Uc.dll = lib\Microsoft.Office.Uc.dll
 	EndProjectSection
 EndProject
 Global
