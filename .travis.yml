@@ -1,0 +1,8 @@
+language: csharp
+solution: Wox.Plugin.Lync.sln
+install:
+  - nuget restore Wox.Plugin.Lync.sln
+  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release Wox.Plugin.Lync.sln
+  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./Wox.Plugin.Lync.Tests/bin/Release/Wox.Plugin.Lync.Tests.dll
