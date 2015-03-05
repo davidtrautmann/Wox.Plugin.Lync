@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wox.Plugin.Lync", "Wox.Plug
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F82818C4-1FC5-4015-AF94-4519FFFBAF3F}"
 	ProjectSection(SolutionItems) = preProject
-		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
 		lib\Microsoft.Lync.Controls.dll = lib\Microsoft.Lync.Controls.dll
 		lib\Microsoft.Lync.Controls.Framework.dll = lib\Microsoft.Lync.Controls.Framework.dll
 		lib\Microsoft.Lync.Model.dll = lib\Microsoft.Lync.Model.dll
