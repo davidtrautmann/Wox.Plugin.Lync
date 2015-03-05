@@ -7,6 +7,7 @@ using System.Management;
 using System.IO;
 using Microsoft.Lync.Model;
 using Microsoft.Lync.Model.Extensibility;
+using Wox.Plugin;
 
 namespace Wox.Plugin.Lync
 {
