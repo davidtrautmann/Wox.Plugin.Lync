@@ -1,2 +1,4 @@
 before_build:
-  - nuget restore	
+    - nuget restore
+after_build:
+    - rm "C:\projects\wox-plugin-lync\Wox.Plugin.Lync.Tests\bin\Debug\Wox.Plugin.Lync.Tests.dll" -Recurse -Force
